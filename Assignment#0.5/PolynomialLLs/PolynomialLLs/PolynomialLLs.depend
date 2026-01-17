@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1735965063 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/PolynomialLLs/main.cpp
+	<iostream>
+	"Poly.h"
+	<fstream>
+
+1735962449 /home/danielray/Desktop/teaching/15.2025Spring/CS355/PolynomialLLs/Poly.h
+	<iostream>
+	<cmath>
+	<string>
+	"Term.h"
+
+1735932039 /home/danielray/Desktop/teaching/15.2025Spring/CS355/PolynomialLLs/Term.h
+	<iomanip>
+
+1735964650 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/PolynomialLLs/Poly.cpp
+	"Poly.h"
+
+1736462071 source:c:\users\chem_\onedrive\desktop\una\cs_355 data structures & algorithms\assignment#0.5\polynomiallls\polynomiallls\main.cpp
+	<iostream>
+	"Poly.h"
+	<fstream>
+
+1736462072 c:\users\chem_\onedrive\desktop\una\cs_355 data structures & algorithms\assignment#0.5\polynomiallls\polynomiallls\poly.h
+	<iostream>
+	<cmath>
+	<string>
+	"Term.h"
+
+1736462071 c:\users\chem_\onedrive\desktop\una\cs_355 data structures & algorithms\assignment#0.5\polynomiallls\polynomiallls\term.h
+	<iomanip>
+
+1736462071 source:c:\users\chem_\onedrive\desktop\una\cs_355 data structures & algorithms\assignment#0.5\polynomiallls\polynomiallls\poly.cpp
+	"Poly.h"
+
