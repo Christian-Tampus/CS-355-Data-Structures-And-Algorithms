@@ -1,0 +1,206 @@
+% ---------------------------------------------------------------------------
+% Name: Christian Tampus
+% Course-Section: CS-355-01
+% Assignment: Assignment #2 Create An IF Game
+% Date Due: 1/19/2025
+% Description: Interactive Fiction Game
+% ---------------------------------------------------------------------------
+<game>
+	% Links
+	<links>
+		<linkset>7,3,1,2</linkset>
+		<linkset>2,2,1,2</linkset>
+		<linkset>1,4,5,6</linkset>
+		<linkset>3,4,4,4</linkset>
+		<linkset>5,5,5,3</linkset>
+		<linkset>6,6,3,6</linkset>
+		<linkset>10,1,8,9</linkset>
+		<linkset>8,8,8,7</linkset>
+		<linkset>9,9,7,9</linkset>
+		<linkset>11,7,10,10</linkset>
+		<linkset>13,10,12,14</linkset>
+		<linkset>12,12,12,11</linkset>
+		<linkset>13,11,13,13</linkset>
+		<linkset>16,15,11,17</linkset>
+		<linkset>14,15,15,15</linkset>
+		<linkset>16,14,16,16</linkset>
+		<linkset>18,20,14,19</linkset>
+		<linkset>18,17,18,18</linkset>
+		<linkset>19,19,17,19</linkset>
+		<linkset>17,22,21,23</linkset>
+		<linkset>21,21,21,20</linkset>
+		<linkset>20,22,22,22</linkset>
+		<linkset>26,24,20,25</linkset>
+		<linkset>23,24,24,24</linkset>
+		<linkset>25,25,23,25</linkset>
+		<linkset>29,23,27,28</linkset>
+		<linkset>27,27,27,26</linkset>
+		<linkset>28,28,26,28</linkset>
+		<linkset>30,26,32,31</linkset>
+		<linkset>30,29,30,30</linkset>
+		<linkset>31,31,29,31</linkset>
+		<linkset>32,32,32,32</linkset>
+	</links>
+	% Area 1
+	<area>
+		<desc>Where... where am i? You woke up in a dark and damp cavernous cave and see flicker of light from a torch ahead of you. You feel a strong constant stream of water rushing from your left. Above the torch you see a giant mirror, you can vaguely see the resemblence of wooden beams. What do you do? Type u,d,l,r to go: up, down left & right.</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 2
+	<area>
+		<desc>You went right, feeling the force of the constant stream of water gradually weaken... but then you slipped... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 3
+	<area>
+		<desc>You went to downwards direction and crossed a old wooden bridge that is not too sturdy but can handle the weight of a man or two. You reached the end of the bridge where the floor is rocky solid, however it is dimly lit so you decided to use your voice to guage the area that you are at. Your loud echoes return back at you and feel a sense of breeze around you seemly coming from beneath all around you, what do you do?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 4
+	<area>
+		<desc>You kept walking the downward direction and using your voice, the wind breeze appears to gradually get stronger. As you yelled out again, it was not the sound of the intent to gain knowledge of your surrounding but of you meeting your demise... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 5
+	<area>
+		<desc>You kept walking the leftward direction and using your voice, the wind breeze appears to gradually get stronger. As you yelled out again, it was not the sound of the intent to gain knowledge of your surrounding but of you meeting your demise... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 6
+	<area>
+		<desc>You kept walking the rightward direction and using your voice, the wind breeze appears to gradually get stronger. As you yelled out again, it was not the sound of the intent to gain knowledge of your surrounding but of you meeting your demise... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 7
+	<area>
+		<desc>You went ahead and approached the torch and found a large wooden door, you decide to enter it and found yourself in a dungeon intersection. To your left you see a room with rusty iron bars to the sides of the entrance and an array holes on the floor between the bars. In the middle, sits a wooden table with what appears to be a steel longsword. The room to the right has holes in the roof in a checkerboard pattern with a door at the end of the room. Ahead of you is just a stone wall with a bookshelf with no books, a desk and a chair. What do you do?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 8
+	<area>
+		<desc>You entered the room with the longsword, you decided to take the item but heard a loud shout behind you. It was a Knight telling you to stop, as you turned around you saw the array of holes on the floor burst out long iron spikes that sealed the room trapping you inside... "YOU FELL FOR THE OBVIOUS TRAP"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 9
+	<area>
+		<desc>You entered the room with a roof that has holes in a checkeroboard pattern as you near the door a loud shout behind you. It was a Knight telling you to stop, as you turned around you saw him hesitant to pursue, using this opportunity you attempted to quickly open the wooden door when suddenly you looked up and saw a rusty iron spike... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 10
+	<area>
+		<desc>You approached the wall with a bookshelf, you thought it was weird that a bookshelf with no books would be in this dungeon and decided to investigate it. You found that there is a small gap behind the bookshelf with what appears to be a hole in the wall, you decided to push the shelf and enter the hole. You find yourself inside a massive dark cavernous area, on the left you see a sign that says "Warning, failure to light the torches poses significant risk falling off the pathways". You look up above you and see a large torch high up at the ceiling. Knowning where the placement of these torches, you realized that you have no way of lighting them. To your right at the bottom near the wall you see a passage written in a tablet emanating a gold light and hue "Ahead goes the adventurer, where they may find themselves in the right place at the right time. Therefore it is crucial not to look down at others that they may show you the right way. Ahead goes the adventurer, ahead goes the adventurer, what places are left for you to display? dog! Therefore, try jumping!" [Appraisals 9999] What should you do?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 11
+	<area>
+		<desc>You slowly move across the pathways ahead and made some distance, what direction should you now go?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 12
+	<area>
+		<desc>You slowly move across the pathways to the left and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 13
+	<area>
+		<desc>You slowly move across the pathways ahead and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 14
+	<area>
+		<desc>You slowly move across the pathways to the right and made some distance, what direction should you now go?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 15
+	<area>
+		<desc>You slowly move across the pathways downwards and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 16
+	<area>
+		<desc>You slowly move across the pathways ahead and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 17
+	<area>
+		<desc>You slowly move across the pathways to the right and made some distance, what direction should you now go?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 18
+	<area>
+		<desc>You slowly move across the pathways ahead and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 19
+	<area>
+		<desc>You slowly move across the pathways to the right and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 20
+	<area>
+		<desc>You slowly move across the pathways downwards and made some distance, what direction should you now go?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 21
+	<area>
+		<desc>You slowly move across the pathways to the left and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 22
+	<area>
+		<desc>You slowly move across the pathways downwards and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 23
+	<area>
+		<desc>You slowly move across the pathways to the right and made some distance, what direction should you now go?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 24
+	<area>
+		<desc>You slowly move across the pathways downwards and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 25
+	<area>
+		<desc>You slowly move across the pathways to the right and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 26
+	<area>
+		<desc>You slowly move across the pathways ahead and made some distance, what direction should you now go?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 27
+	<area>
+		<desc>You slowly move across the pathways to the left and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 28
+	<area>
+		<desc>You slowly move across the pathways to the right and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 29
+	<area>
+		<desc>You slowly move across the pathways ahead and made some distance, what direction should you now go?</desc>
+		<feats>0,0</feats>
+	</area>
+	% Area 30
+	<area>
+		<desc>You slowly move across the pathways ahead and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 31
+	<area>
+		<desc>You slowly move across the pathways to the right and made some distance but a small slip was all it took... "YOU DIED"</desc>
+		<feats>1,0</feats>
+	</area>
+	% Area 32
+	<area>
+		<desc>You slowly move across the pathways to the left and made some distance, until finally you saw a large wooden dungeon door. You opened it and found an Carian Lift, you activate it using the lever then got on the center to step on the circle stone button. It lifts you up quick until it reaches the top. Finally at the top of the lift some 300 meters of height that you estimated, you then see a large wooden door ahead of you elevated by a few stairs. You climb the stairs and reached the door and slowly opened it and see the outside world. Upon stepping out you saw a sign called... "Caelid Ohio"... [Ohio Ring TM]</desc>
+		<feats>0,1</feats>
+	</area>
+</game>
+
+
