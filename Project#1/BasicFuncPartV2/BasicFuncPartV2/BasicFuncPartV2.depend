@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1737043273 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Area.cpp
+	<iostream>
+	"Area.h"
+
+1737044957 /home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Area.h
+	<string>
+	<iostream>
+
+1596579957 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/main.cpp
+	"Game.h"
+
+1737043551 /home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Game.h
+	"Map.h"
+	"Player.h"
+
+1737044863 /home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Map.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+	"areaNode.h"
+	"IFDParser.h"
+	"LinkData.h"
+	"Area.h"
+
+1737043877 /home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/IFDParser.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+
+1737044534 /home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/LinkData.h
+	<iostream>
+
+1737044863 /home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Player.h
+	"areaNode.h"
+
+1737043553 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Game.cpp
+	<iostream>
+	"Game.h"
+
+1737043816 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/IFDParser.cpp
+	<iostream>
+	"IFDParser.h"
+
+1737044406 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Map.cpp
+	<iostream>
+	"Map.h"
+
+1737044534 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/LinkData.cpp
+	<iostream>
+	"LinkData.h"
+
+1737044899 /home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/areaNode.h
+	"Area.h"
+
+1737044626 source:/home/danielray/Desktop/teaching/15.2025Spring/CS355/BasicFuncPartV2/Player.cpp
+	<iostream>
+	"Player.h"
+
